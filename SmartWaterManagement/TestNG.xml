@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Login_scenario">
+<test name = "LoginPage">
+<classes>
+<class name = "loginScenario.Ad"></class>
+<class name = "loginScenario.Block"></class>
+<class name = "loginScenario.District"></class>
+<class name = "loginScenario.Helpdesk"></class>
+<class name = "loginScenario.Panchayat"></class>
+<class name = "loginScenario.ServiceEngg"></class>
+<class name = "loginScenario.State"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-30T15:31:22 IST" name="Default suite" finished-at="2024-12-30T15:31:35 IST" duration-ms="13093">
+    <groups>
+    </groups>
+    <test started-at="2024-12-30T15:31:22 IST" name="Default test" finished-at="2024-12-30T15:31:35 IST" duration-ms="13093">
+      <class name="serviceenggPage.Logout">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:serviceenggPage.Logout@710636b0]" started-at="2024-12-30T15:31:22 IST" name="beforesuite" finished-at="2024-12-30T15:31:33 IST" duration-ms="10931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method signature="logout()[pri:0, instance:serviceenggPage.Logout@710636b0]" started-at="2024-12-30T15:31:33 IST" name="logout" finished-at="2024-12-30T15:31:35 IST" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:serviceenggPage.Logout@710636b0]" started-at="2024-12-30T15:31:35 IST" name="aftersuite" finished-at="2024-12-30T15:31:35 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- serviceenggPage.Logout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

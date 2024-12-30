@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login_scenario]">
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="loginPage.Helpdesk">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="Close_browser"/>
+          <include name="login" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- loginPage.Helpdesk -->
+      <class name="loginPage.ServiceEngg">
+        <methods>
+          <include name="Close_browser"/>
+          <include name="launch_browser"/>
+          <include name="login" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- loginPage.ServiceEngg -->
+      <class name="loginPage.Block">
+        <methods>
+          <include name="login" invocation-numbers="1 2 3 4"/>
+          <include name="launch_browser"/>
+          <include name="Close_browser"/>
+        </methods>
+      </class> <!-- loginPage.Block -->
+      <class name="loginPage.Panchayat">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2 3 4"/>
+          <include name="Close_browser"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- loginPage.Panchayat -->
+      <class name="loginPage.District">
+        <methods>
+          <include name="login" invocation-numbers="1 2 3 4"/>
+          <include name="launch_browser"/>
+          <include name="Close_browser"/>
+        </methods>
+      </class> <!-- loginPage.District -->
+      <class name="loginPage.Ad">
+        <methods>
+          <include name="login" invocation-numbers="1 2 3 4"/>
+          <include name="launch_browser"/>
+          <include name="Close_browser"/>
+        </methods>
+      </class> <!-- loginPage.Ad -->
+      <class name="loginPage.State">
+        <methods>
+          <include name="Close_browser"/>
+          <include name="launch_browser"/>
+          <include name="login" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- loginPage.State -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [Login_scenario] -->
